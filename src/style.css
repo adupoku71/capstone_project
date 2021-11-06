@@ -9,11 +9,37 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
-.App {
-  height: 100vh;
+/* .App {
+  
+} */
+
+/* Header component */
+.left-navitems {
+  display: flex;
+  justify-content: flex-start;
+}
+.right-navitems {
+  display: flex;
+  margin-left: auto;
+}
+li {
+  list-style: none;
+}
+
+.hero-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+input {
+  border-radius: 1.6rem;
+  -webkit-border-radius: 1.6rem;
+  -moz-border-radius: 1.6rem;
+  -ms-border-radius: 1.6rem;
+  -o-border-radius: 1.6rem;
 }
