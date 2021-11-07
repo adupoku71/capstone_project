@@ -233,6 +233,9 @@ footer {
   min-height: 15%;
   font-size: 15px;
   overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 footer div {
   padding: 10px 30px;
