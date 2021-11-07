@@ -34,6 +34,12 @@ li {
   list-style: none;
   margin: 0 8px;
 }
+
+.nav-text:hover {
+  text-decoration: underline;
+
+}
+
 .circle_avatar {
   display: flex;
   align-items: center;
