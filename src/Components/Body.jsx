@@ -16,7 +16,7 @@ function Body() {
         {input ? <p>{input}</p> : <img src={logo} alt="" className="logo" />}
       </div>
       <div className="search">
-        <div className="icon">
+        <div className="search-icon icons">
           <AiOutlineSearch />
         </div>
         <div className="search_close">
@@ -43,7 +43,7 @@ function Body() {
             )}
           </div> */}
         </div>
-        <div className="icon mic">
+        <div className="mic-icon icons">
           <FaMicrophone style={{ color: "green" }} />
         </div>
       </div>
