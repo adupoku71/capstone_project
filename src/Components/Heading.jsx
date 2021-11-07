@@ -1,16 +1,15 @@
 function Header() {
     return (
-        <nav>
+        <nav className="navbar">
             <ul className="left-navitems">
-                <li></li>
+                <li>=</li>
                 <li>Apps</li>
                 <li>Images</li>
-                <ul className="right-navitems">
-                    <li>Grid-icon</li>
-                    <li>Avatar</li>
-                </ul>
             </ul>
-           
+            <ul className="right-navitems">
+                <li>Grid-icon</li>
+                <li>Avatar</li>
+             </ul>
         </nav>
     );
 }

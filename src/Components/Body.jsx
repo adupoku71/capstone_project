@@ -9,9 +9,21 @@ function Body() {
     return (
        <div className="hero-section">
            <div className="sidehustle-logo">
-                {input ? <p>{input}</p> :  <img src={logo} alt=""  />  }     
+                {input ? <p>{input}</p> :  <img src={logo} alt="" className="logo" />  } 
            </div>
-           <input onChange={handleInputChange} type="search" name="" id="" />
+           <div className="search">
+                <input onChange={handleInputChange} type="search" name="" id="" />
+           </div>
+           <div className="languages-container">
+               <p>Google offered in:</p>
+               <ul className="laguages">
+                   <li>Hausa</li>
+                   <li>Igbo</li>
+                   <li>Ede</li>
+                   <li>Yoruba</li>
+                   <li>Nigerian Pigin</li>
+               </ul>
+           </div>
        </div>
     );
 }
