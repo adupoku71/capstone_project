@@ -2,7 +2,6 @@
 
 ## Welcome to the CapStone Project!
 
-
 Hi! **Team**. Please this is the **github** repository in which we would be building our **project**.
 
 We are all going to work on parts on the project and submit to this repository.
@@ -52,12 +51,15 @@ We are all going to work on parts on the project and submit to this repository.
 
 ## If I left anything out you can suggest it in the group or make the changes in your copy of the project.
 
-
 ## Code Documentation
 
 ### Name: Victor Oluwayemi
+
 - The Body Component
- >The project requirement was to replace the Google logo with the Sidehustle logo and update the logo with the user input >in the search bar. Initially, the Sidehustle logo is displayed, but when a user inputs some text into the search bar, >react updates the state of the logo with the inputed text.
-     
- >A functional component and the **useState** hook was used to accomplish this task.
-      
+  > The project requirement was to replace the Google logo with the Sidehustle logo and update the logo with the user input >in the search bar. Initially, the Sidehustle logo is displayed, but when a user inputs some text into the search bar, >react updates the state of the logo with the inputed text.
+
+> A functional component and the **useState** hook was used to accomplish this task.
+
+### Name: DAVID ADU-POKU
+
+> The project was to make a replica of the **google search homepage**. I employed the use of **css** to style the application to make it **google `searchly`**. We created an external `style.css` file and also used some **inline styles** to achieve that. I used some basic styles such as `paddings, margin, text-align etc` and some more advanced styles such as `flexbox` for the **layout** .
