@@ -34,6 +34,11 @@ li {
   list-style: none;
   margin: 0 8px;
 }
+
+.nav-text:hover {
+  text-decoration: underline;
+}
+
 .circle_avatar {
   display: flex;
   align-items: center;
@@ -78,17 +83,47 @@ li {
   height: 100%;
 }
 .search {
+  /* background: coral; */
   display: flex;
   align-content: center;
   align-items: center;
   border-radius: 10rem;
   border: 0.5px solid #0000002e;
   width: 550px;
-  padding: 7px 20px;
+  padding: 10px 0;
   font-size: 18px;
   /* background: red; */
   cursor: pointer;
 }
+@media (max-width: 370px) {
+  .search {
+    padding: 10px;
+  }
+  .search_close {
+    flex-basis: 70%;
+  }
+  .icon {
+    flex-basis: 15%;
+  }
+}
+.search_close {
+  flex-basis: 80%;
+  display: flex;
+  border-right: 0.5px solid #0000002e;
+
+  /* padding-right: 15px; */
+}
+.icon {
+  flex-basis: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* .mic {
+  margin-left: auto;
+} */
 @media (max-width: 768px) {
   .search {
     width: 90%;
@@ -100,24 +135,42 @@ li {
   align-items: center;
   height: 32px;
   border-right: 1px solid #0000002e;
-  margin-right: 15px;
-  padding-right: 15px;
+  /* margin-right: 15px;
+  padding-right: 15px; */
   padding-top: 4px;
 }
-.close button {
+.search_close button {
   border: none;
   background: transparent;
-  color: #0000007e;
-  font-size: 20px;
+  /* color: #0000007e; */
+  color: black;
+  padding-top: 5px;
+  padding-right: 12px;
+  /* font-size: 20px; */
   cursor: pointer;
+}
+@media (max-width: 380px) {
+  .search {
+    padding: 10px;
+  }
+  .search_close {
+    flex-basis: 70%;
+  }
+  .icon {
+    flex-basis: 15%;
+  }
+  .search_close button {
+    padding-right: 5px;
+  }
+  input {
+    /* background-color: #000; */
+    padding-left: 2px;
+  }
 }
 input {
   flex: 1;
   border: none;
-  padding: 0 10px;
   font-size: 17px;
-  /* border-right: 1px solid #0000007e; */
-  margin: 0 5px;
 }
 input:focus {
   outline: none;
@@ -143,16 +196,13 @@ input:focus {
     margin-top: 1rem;
   }
 }
-@media (max-width: 370px) {
-  .search-buttons {
-    display: none;
-  }
-}
+
 .languages-container {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 1.8rem;
+  /* margin-bottom: 1rem; */
   font-size: 13px;
   /* flex-direction: row; */
 }
@@ -161,9 +211,18 @@ input:focus {
   color: green;
   cursor: pointer;
 }
+@media (max-width: 380px) {
+  .search-buttons {
+    display: none;
+  }
+  .languages-container {
+    margin-bottom: 1rem;
+  }
+}
 @media (max-width: 768px) {
   .languages-container {
     font-size: 12px;
+    margin-bottom: 2rem;
   }
 }
 /* End of Hero Section */

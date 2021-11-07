@@ -4,9 +4,9 @@ function Header() {
   return (
     <nav className="navbar">
       <ul className="right-navitems">
-        <li>Gmail</li>
-        <li>Images</li>
-        <li style={{ fontSize: "1.6rem", marginTop: "8px" }}>
+        <li className="nav-text">Gmail</li>
+        <li className="nav-text">Images</li>
+        <li className="nav-app" style={{ fontSize: "1.6rem", marginTop: "8px" }}>
           <CgMenuGridO />
         </li>
         <li>
