@@ -38,9 +38,9 @@ We are all going to work on parts on the project and submit to this repository.
 - After making a pull request the whole team will review your code and decide to accept it or not.
 - When accepted, I will follow suit and merge it with the project.
 
-## Write Up
+## Article
 
-We'll find ourselves a good writer in the group to take care of the write up.
+[Link to the article]().
 
 ## Hosting
 
@@ -48,15 +48,16 @@ We'll find ourselves a good writer in the group to take care of the write up.
 
       It is a good exercise to learn how to host react projects.
 
-- We'll just send a link to one of our hosted pages.
+- [Live Website]().
 
 ## If I left anything out you can suggest it in the group or make the changes in your copy of the project.
+
 
 ## Code Documentation
 
 ### Name: Victor Oluwayemi
 - The Body Component
-      The project requirement was to replace the Google logo with the Sidehustle logo and update the logo with the user  input in the search bar. Initially, the Sidehustle logo is displayed, but when a user inputs some text into the  search bar, react updates the state of the logo with the inputed text.
+ >The project requirement was to replace the Google logo with the Sidehustle logo and update the logo with the user input >in the search bar. Initially, the Sidehustle logo is displayed, but when a user inputs some text into the search bar, >react updates the state of the logo with the inputed text.
      
-      A functional component and the `useState` hook was used to accomplish this task.
+ >A functional component and the **useState** hook was used to accomplish this task.
       
