@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/capstone_project/static/css/main.bb9f3b13.chunk.css",
+    "main.css": "/capstone_project/static/css/main.dcd3393d.chunk.css",
     "main.js": "/capstone_project/static/js/main.10c085af.chunk.js",
     "main.js.map": "/capstone_project/static/js/main.10c085af.chunk.js.map",
     "runtime-main.js": "/capstone_project/static/js/runtime-main.a894487b.js",
@@ -8,13 +8,13 @@
     "static/js/2.c4c61fad.chunk.js": "/capstone_project/static/js/2.c4c61fad.chunk.js",
     "static/js/2.c4c61fad.chunk.js.map": "/capstone_project/static/js/2.c4c61fad.chunk.js.map",
     "index.html": "/capstone_project/index.html",
-    "static/css/main.bb9f3b13.chunk.css.map": "/capstone_project/static/css/main.bb9f3b13.chunk.css.map",
+    "static/css/main.dcd3393d.chunk.css.map": "/capstone_project/static/css/main.dcd3393d.chunk.css.map",
     "static/js/2.c4c61fad.chunk.js.LICENSE.txt": "/capstone_project/static/js/2.c4c61fad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a894487b.js",
     "static/js/2.c4c61fad.chunk.js",
-    "static/css/main.bb9f3b13.chunk.css",
+    "static/css/main.dcd3393d.chunk.css",
     "static/js/main.10c085af.chunk.js"
   ]
 }
