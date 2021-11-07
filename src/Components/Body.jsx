@@ -26,9 +26,13 @@ function Body() {
             value={input}
             placeholder="Search..."
           />
-          <button onClick={clearInput}>
-            <AiOutlineClose />
-          </button>
+          {input ? (
+            <button onClick={clearInput}>
+              <AiOutlineClose />
+            </button>
+          ) : (
+            ""
+          )}
           {/* <div className="close">
             {input ? (
               <button onClick={clearInput}>
