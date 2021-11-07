@@ -5,61 +5,220 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-}
-
-body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
 }
 
-/* .App {
-  
-} */
+.App {
+  height: 100vh;
+  /* width: 100vw; */
+}
 
 /* Header component */
 .navbar {
+  padding-right: 15px;
   display: flex;
+  font-size: 15px;
+  height: 10%;
 }
-.left-navitems {
+
+.navbar ul {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .right-navitems {
   display: flex;
   margin-left: auto;
-} 
+}
 li {
   list-style: none;
+  margin: 0 8px;
 }
-
-.hero-section {
+.circle_avatar {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 25px;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background: green;
+  color: white;
+}
+/* End of Header Component */
+
+/* Hero Section */
+.hero-section {
+  /* background: coral; */
+  display: flex;
+  align-items: center;
   flex-direction: column;
-  height: 50vh;
+  min-height: 75%;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    justify-content: center;
+    min-height: 70%;
+  }
+}
+
+.sidehustle-logo {
+  /* background-color: coral; */
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 30px;
 }
 .logo {
-  width: 15rem;
+  width: 20rem;
+  height: 100%;
+}
+.search {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  border-radius: 10rem;
+  border: 0.5px solid #0000002e;
+  width: 550px;
+  padding: 7px 20px;
+  font-size: 18px;
+  /* background: red; */
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .search {
+    width: 90%;
+  }
+}
+.close {
+  /* background: coral; */
+  display: flex;
+  align-items: center;
+  height: 32px;
+  border-right: 1px solid #0000002e;
+  margin-right: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+}
+.close button {
+  border: none;
+  background: transparent;
+  color: #0000007e;
+  font-size: 20px;
+  cursor: pointer;
 }
 input {
-  border-radius: 1.6rem;
-  -webkit-border-radius: 1.6rem;
-  -moz-border-radius: 1.6rem;
-  -ms-border-radius: 1.6rem;
-  -o-border-radius: 1.6rem;
-  border: 0.5px solid #0000002e;
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 17px;
+  /* border-right: 1px solid #0000007e; */
+  margin: 0 5px;
 }
-.laguages-container {
+input:focus {
+  outline: none;
+}
+
+.search-buttons {
+  margin-top: 1rem;
+}
+
+.search-buttons button {
+  /* display: block; */
+  margin: 1rem 20px 0;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 17px;
+  width: 170px;
+  font-size: 14px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .search-buttons button {
+    display: block;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 370px) {
+  .search-buttons {
+    display: none;
+  }
+}
+.languages-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  margin-top: 1.8rem;
+  font-size: 13px;
+  /* flex-direction: row; */
 }
-.laguages {
-  display: flex;
- 
+.languages {
+  display: inline-flex;
+  color: green;
+  cursor: pointer;
 }
+@media (max-width: 768px) {
+  .languages-container {
+    font-size: 12px;
+  }
+}
+/* End of Hero Section */
+
+/* Start of Footer   */
 footer {
-  background-color: #0000007e;
-  height: 100%;
+  background-color: #e0dddd7e;
+  min-height: 15%;
+  font-size: 15px;
+  overflow: hidden;
 }
+footer div {
+  padding: 10px 30px;
+  border-top: 1px solid #a5a4a42e;
+  /* background-color: coral; */
+}
+footer nav {
+  display: flex;
+  /* background: red; */
+}
+footer nav ul {
+  display: flex;
+  flex: 1;
+}
+
+.last .helper {
+  margin-left: auto;
+}
+.location {
+  padding-left: 38px;
+}
+@media (max-width: 768px) {
+  footer {
+    min-height: 20%;
+  }
+  footer nav {
+    display: block;
+  }
+  .last .helper {
+    margin-left: 20px;
+  }
+  footer .nav-container {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  footer li {
+    margin: 0 15px;
+  }
+  footer .nav-container .last {
+    margin-top: 0.6rem;
+  }
+}
+/*End of Footer */
