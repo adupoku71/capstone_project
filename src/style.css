@@ -9,11 +9,57 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
-.App {
-  height: 100vh;
+/* .App {
+  
+} */
+
+/* Header component */
+.navbar {
+  display: flex;
+}
+.left-navitems {
+  display: flex;
+}
+.right-navitems {
+  display: flex;
+  margin-left: auto;
+} 
+li {
+  list-style: none;
+}
+
+.hero-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+.logo {
+  width: 15rem;
+}
+input {
+  border-radius: 1.6rem;
+  -webkit-border-radius: 1.6rem;
+  -moz-border-radius: 1.6rem;
+  -ms-border-radius: 1.6rem;
+  -o-border-radius: 1.6rem;
+  border: 0.5px solid #0000002e;
+}
+.laguages-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.laguages {
+  display: flex;
+ 
+}
+footer {
+  background-color: #0000007e;
+  height: 100%;
 }
