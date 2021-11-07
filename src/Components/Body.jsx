@@ -16,18 +16,32 @@ function Body() {
         {input ? <p>{input}</p> : <img src={logo} alt="" className="logo" />}
       </div>
       <div className="search">
-        <AiOutlineSearch />
-        <input onChange={handleInputChange} type="text" value={input} />
-        <div className="close">
-          {input ? (
-            <button onClick={clearInput}>
-              <AiOutlineClose />
-            </button>
-          ) : (
-            ""
-          )}
+        <div className="icon">
+          <AiOutlineSearch />
         </div>
-        <FaMicrophone onClick={clearInput} style={{ color: "green" }} />
+        <div className="search_close">
+          <input
+            onChange={handleInputChange}
+            type="text"
+            value={input}
+            placeholder="Search..."
+          />
+          <button onClick={clearInput}>
+            <AiOutlineClose />
+          </button>
+          {/* <div className="close">
+            {input ? (
+              <button onClick={clearInput}>
+                <AiOutlineClose />
+              </button>
+            ) : (
+              ""
+            )}
+          </div> */}
+        </div>
+        <div className="icon mic">
+          <FaMicrophone style={{ color: "green" }} />
+        </div>
       </div>
       <div className="search-buttons">
         <button>SideHustle Search</button>
