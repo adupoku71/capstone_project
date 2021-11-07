@@ -11,29 +11,30 @@ function Body() {
     setUserInput("")
   }
   return (
-    <div className="hero-section">
-      <div className="sidehustle-logo">
-        {input ? <p>{input}</p> : <img src={logo} alt="" className="logo" />}
-      </div>
-      <div className="search">
-        <div className="search-icon icons">
-          <AiOutlineSearch />
+    <div className="center">
+      <div className="hero-section">
+        <div className="sidehustle-logo">
+          {input ? <p>{input}</p> : <img src={logo} alt="" className="logo" />}
         </div>
-        <div className="search_close">
-          <input
-            onChange={handleInputChange}
-            type="text"
-            value={input}
-            placeholder="Search..."
-          />
-          {input ? (
-            <button onClick={clearInput}>
-              <AiOutlineClose />
-            </button>
-          ) : (
-            ""
-          )}
-          {/* <div className="close">
+        <div className="search">
+          <div className="search-icon icons">
+            <AiOutlineSearch />
+          </div>
+          <div className="search_close">
+            <input
+              onChange={handleInputChange}
+              type="text"
+              value={input}
+              placeholder="Search..."
+            />
+            {input ? (
+              <button onClick={clearInput}>
+                <AiOutlineClose />
+              </button>
+            ) : (
+              ""
+            )}
+            {/* <div className="close">
             {input ? (
               <button onClick={clearInput}>
                 <AiOutlineClose />
@@ -42,25 +43,26 @@ function Body() {
               ""
             )}
           </div> */}
+          </div>
+          <div className="mic-icon icons">
+            <FaMicrophone style={{ color: "green" }} />
+          </div>
         </div>
-        <div className="mic-icon icons">
-          <FaMicrophone style={{ color: "green" }} />
+        <div className="search-buttons">
+          <button>SideHustle Search</button>
+          <button>I'm Feeling Lucky</button>
         </div>
-      </div>
-      <div className="search-buttons">
-        <button>SideHustle Search</button>
-        <button>I'm Feeling Lucky</button>
-      </div>
-      <div className="languages-container">
-        <div>
-          <p>Google offered in:</p>
-        </div>
-        <div>
-          <ul className="languages">
-            <li>Hausa</li>
-            <li>Igbo</li>
-            <li>Ede</li>
-          </ul>
+        <div className="languages-container">
+          <div>
+            <p>Google offered in:</p>
+          </div>
+          <div>
+            <ul className="languages">
+              <li>Hausa</li>
+              <li>Igbo</li>
+              <li>Ede</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
